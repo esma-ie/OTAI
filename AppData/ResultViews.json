@@ -1,0 +1,254 @@
+[
+  {
+    "Settings": {},
+    "Description": "Electricity sector generation output from all technology sets",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-24 09:16",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"ELCC\",\"ESPV\",\"EWNF\",\"EWNO\"],\"processset\":[\"STG\",\"PS_ELC_BioLiquids\",\"PS_ELC_Biomass\",\"PS_ELC_Coal\",\"PS_ELC_Gas\",\"PS_ELC_Geothermal\",\"PS_ELC_Hydrogen\",\"PS_ELC_Nuclear\",\"PS_ELC_Oil\",\"PS_ELC_OtherGases\",\"PS_ELC_Peat\",\"PS_ELC_Solar | PV\",\"PS_ELC_Solar | Thermal\",\"PS_ELC_Tidal\",\"PS_ELC_Waste\",\"PS_ELC_Water\",\"PS_ELC_Wind | Offshore\",\"PS_ELC_Wind | Onshore\"]}",
+    "Name": "ELC_Generation_Output",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Electricity Sector All Technology Installed Capacity",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-24 09:01",
+    "Filter": "{\"attribute\":[\"VAR_Cap\"],\"processset\":[\"STG\",\"PS_ELC_BioLiquids\",\"PS_ELC_Biomass\",\"PS_ELC_Coal\",\"PS_ELC_Gas\",\"PS_ELC_Geothermal\",\"PS_ELC_Hydrogen\",\"PS_ELC_Nuclear\",\"PS_ELC_Oil\",\"PS_ELC_OtherGases\",\"PS_ELC_Solar | PV\",\"PS_ELC_Solar | Thermal\",\"PS_ELC_Tidal\",\"PS_ELC_Waste\",\"PS_ELC_Water\",\"PS_ELC_Wind | Offshore\",\"PS_ELC_Wind | Onshore\"]}",
+    "Name": "ELC_Capacity",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Objective function value",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-24 08:14",
+    "Filter": "{\"attribute\":[\"ObjZ\"]}",
+    "Name": "objective-function-value",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Dummy imports",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"DUMMY_IMPORT\"]}",
+    "Name": "dummy-imports",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Electricity sector marginal price of ELCC",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"EQ_CombalM\"],\"commodity\":[\"ELCC\"]}",
+    "Name": "ELC_Prices_ELCC",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Mining of energy commodities",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"IRE_MIN\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "SYS_Energy_Mining",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "SO2 emissions by sector",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_Comnet\",\"EQ_Combal\"],\"commodityset\":[\"ENV_SO2_ELC\"]}",
+    "Name": "SYS_Emissions_SO2",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "PM2.5 emissions by sector",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_Comnet\",\"EQ_Combal\"],\"commodityset\":[\"ENV_PM25_ELC\"]}",
+    "Name": "SYS_Emissions_PM25",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "PM10 emissions by sector",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_Comnet\",\"EQ_Combal\"],\"commodityset\":[\"ENV_PM10_ELC\"]}",
+    "Name": "SYS_Emissions_PM10",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "NOx emissions by sector",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_Comnet\",\"EQ_Combal\"],\"commodityset\":[\"ENV_NOX_ELC\"]}",
+    "Name": "SYS_Emissions_NOX",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "N2O emissions by sector",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_Comnet\",\"EQ_Combal\"],\"commodityset\":[\"ENV_N2O_ELC\"]}",
+    "Name": "SYS_Emissions_N2O",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "CH4 emissions by sector",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_Comnet\",\"EQ_Combal\"],\"commodityset\":[\"ENV_CH4_ELC\"]}",
+    "Name": "SYS_Emissions_CH4",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Lump sum investment costs",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"Cap_New\"],\"userconstraint\":[\"LUMPINV\"]}",
+    "Name": "SYS_Costs_Lumpy",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Annual system costs",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"Cost_Act\",\"Cost_Dec\",\"Cost_Flo\",\"Cost_Flox\",\"Cost_Fom\",\"Cost_Fixx\",\"Cost_Inv\",\"Cost_Invx\",\"Cost_ire\"]}",
+    "Name": "SYS_Costs_Annual",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Industry sector production - iron and steel",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"IIS\"],\"processset\":[\"PRC_IND_IIS\"]}",
+    "Name": "IND_Production-IIS",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Industry sector marginal price of IIS",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"EQ_CombalM\"],\"commodity\":[\"IIS\"]}",
+    "Name": "IND_Prices-IIS",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Industry sector Import - iron and steel",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"IIS\"],\"processset\":[\"IRE\"]}",
+    "Name": "IND_Import-IIS",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Industry sector emissions - iron and steel",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"PRC_IND_IIS\"],\"commodityset\":[\"ENV\"]}",
+    "Name": "IND_Emissions-IIS",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Industry sector new capacity - iron and steel",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_Ncap\"],\"processset\":[\"PRC_IND_IIS\"]}",
+    "Name": "IND_Capacity_New-IIS",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Industry sector capacity - iron and steel",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_Cap\"],\"processset\":[\"PRC_IND_IIS\"]}",
+    "Name": "IND_Capacity-IIS",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Electricity sector generation input of materials",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"PRC_ELC_BSL\",\"PRC_ELC_COA\",\"PRC_ELC_GAS\",\"PRC_ELC_GEO\",\"PRC_ELC_H2\",\"PRC_ELC_HYD\",\"PRC_ELC_LIQ\",\"PRC_ELC_MSW\",\"PRC_ELC_NUC\",\"PRC_ELC_OGF\",\"PRC_ELC_OIL\",\"PRC_ELC_SPV\",\"PRC_ELC_STH\",\"PRC_ELC_TID\",\"PRC_ELC_WNF\",\"PRC_ELC_WNO\"],\"commodityset\":[\"MAT\"]}",
+    "Name": "ELC_Generation_Input_MAT",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Electricity sector generation input from all technology sets & All commodity sets",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"PRC_ELC_COA\",\"PRC_ELC_GAS\",\"PRC_ELC_GEO\",\"PRC_ELC_H2\",\"PRC_ELC_LIQ\",\"PRC_ELC_MSW\",\"PRC_ELC_NUC\",\"PRC_ELC_OGF\",\"PRC_ELC_OIL\",\"PRC_ELC_TID\",\"PRC_ELC_WAT\",\"PRC_ELC_BMS\",\"PRC_ELC_SPV\",\"PRC_ELC_STH\",\"PRC_ELC_WNF\",\"PRC_ELC_WNO\",\"STG\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "ELC_Generation_Input",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Electricity sector generation output by technology type",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"ELCC\"],\"processset\":[\"ELE\",\"CHP\",\"STG\"]}",
+    "Name": "ELC_Generation_Output_Type",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "CO2 emissions by sector",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_Comnet\",\"EQ_Combal\"],\"commodityset\":[\"ENV_CO2_ELC\"]}",
+    "Name": "SYS_Emissions_CO2",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Import of energy commodities",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"IRE_IMP\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "SYS_Energy_Import",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Export of energy commodities",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"IRE_EXP\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "SYS_Energy_Export",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Electricity Sector All Technology Installed Capacity",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_Cap\"],\"processset\":[\"PRC_ELC_WNO\",\"PRC_ELC_COA\",\"PRC_ELC_GAS\",\"PRC_ELC_GEO\",\"PRC_ELC_H2\",\"PRC_ELC_HYD\",\"PRC_ELC_LIQ\",\"PRC_ELC_MSW\",\"PRC_ELC_NUC\",\"PRC_ELC_OGF\",\"PRC_ELC_OIL\",\"PRC_ELC_SPV\",\"PRC_ELC_STH\",\"PRC_ELC_TID\",\"PRC_ELC_WNF\"]}",
+    "Name": "ELC_Capacity_Flatfile",
+    "UserName": "james"
+  },
+  {
+    "Settings": {},
+    "Description": "Electricity Sector New Technology Installed Capacity",
+    "EditedOn": "2025-11-17 18:52",
+    "LastAccessed": "2025-11-17 18:52",
+    "Filter": "{\"attribute\":[\"VAR_Ncap\"],\"processset\":[\"PRC_ELC_WNO\",\"PRC_ELC_COA\",\"PRC_ELC_GAS\",\"PRC_ELC_GEO\",\"PRC_ELC_H2\",\"PRC_ELC_HYD\",\"PRC_ELC_LIQ\",\"PRC_ELC_MSW\",\"PRC_ELC_NUC\",\"PRC_ELC_OGF\",\"PRC_ELC_OIL\",\"PRC_ELC_SPV\",\"PRC_ELC_STH\",\"PRC_ELC_TID\",\"PRC_ELC_WNF\"]}",
+    "Name": "ELC_Capacity_New",
+    "UserName": "james"
+  }
+]

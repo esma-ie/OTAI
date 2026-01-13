@@ -1,0 +1,38 @@
+[
+  {
+    "SavedGroupId": 532,
+    "GroupName": "AllRegion",
+    "GroupType": "Region",
+    "Settings": "[\"IE\", \"NI\"]",
+    "CreatedOn": "2026-01-13 13:16",
+    "DisplayCreatedOn": "2026-01-13 13:16",
+    "UserName": "james"
+  },
+  {
+    "SavedGroupId": 531,
+    "GroupName": "AllScenario",
+    "GroupType": "Scenario",
+    "Settings": "[{\"Name\": \"BASE\", \"Checked\": true, \"RowOrder\": 1, \"ShortName\": \"B\", \"FileStatus\": \"Consistent\", \"RecordCount\": 952}, {\"Name\": \"2.0_ELC_NREL-ATB-2021\", \"Checked\": true, \"RowOrder\": 2, \"ShortName\": \"SR\", \"FileStatus\": \"Consistent\", \"RecordCount\": 4000}, {\"Name\": \"2.1_ELC_EIA_AEO2022\", \"Checked\": true, \"RowOrder\": 3, \"ShortName\": \"SR\", \"FileStatus\": \"Consistent\", \"RecordCount\": 352}, {\"Name\": \"SysSettings\", \"Checked\": true, \"RowOrder\": 4, \"ShortName\": \"SS\", \"FileStatus\": \"Consistent\", \"RecordCount\": 43}, {\"Name\": \"1.0_Demands\", \"Checked\": true, \"RowOrder\": 5, \"ShortName\": \"RS\", \"FileStatus\": \"Consistent\", \"RecordCount\": 154}, {\"Name\": \"1.1_PricesFuel\", \"Checked\": true, \"RowOrder\": 6, \"ShortName\": \"RS\", \"FileStatus\": \"Consistent\", \"RecordCount\": 332}, {\"Name\": \"1.3_ELC_RenewablePotentials\", \"Checked\": true, \"RowOrder\": 7, \"ShortName\": \"RS\", \"FileStatus\": \"Consistent\", \"RecordCount\": 4813}, {\"Name\": \"1.4_MaxGrowthRates\", \"Checked\": true, \"RowOrder\": 8, \"ShortName\": \"RS\", \"FileStatus\": \"Consistent\", \"RecordCount\": 548}, {\"Name\": \"2.0_Time-TS1-1-ANNUAL\", \"Checked\": true, \"RowOrder\": 9, \"ShortName\": \"RS\", \"FileStatus\": \"Consistent\", \"RecordCount\": 4}, {\"Name\": \"2.0_Time-TS2-60\", \"Checked\": true, \"RowOrder\": 10, \"ShortName\": \"RS\", \"FileStatus\": \"Consistent\", \"RecordCount\": 540}, {\"Name\": \"2.0_Time-TS3-480\", \"Checked\": true, \"RowOrder\": 11, \"ShortName\": \"RS\", \"FileStatus\": \"Consistent\", \"RecordCount\": 4320}, {\"Name\": \"3.0_ELC_UnitCommitment\", \"Checked\": true, \"RowOrder\": 12, \"ShortName\": \"RS\", \"FileStatus\": \"Consistent\", \"RecordCount\": 692}, {\"Name\": \"3.1_ELC_Discrete_NCAP\", \"Checked\": true, \"RowOrder\": 13, \"ShortName\": \"RS\", \"FileStatus\": \"Consistent\", \"RecordCount\": 252}, {\"Name\": \"4.0_CarbonBudget\", \"Checked\": true, \"RowOrder\": 14, \"ShortName\": \"RS\", \"FileStatus\": \"Consistent\", \"RecordCount\": 16}]",
+    "CreatedOn": "2026-01-13 13:16",
+    "DisplayCreatedOn": "2026-01-13 13:16",
+    "UserName": "james"
+  },
+  {
+    "SavedGroupId": 562,
+    "GroupName": "B-TS1",
+    "GroupType": "Scenario",
+    "Settings": "[{\"Name\": \"BASE\", \"Checked\": true, \"RowOrder\": 0, \"ShortName\": \"B\"}, {\"Name\": \"2.0_ELC_NREL-ATB-2021\", \"Checked\": true, \"RowOrder\": 1, \"ShortName\": \"SR\"}, {\"Name\": \"2.1_ELC_EIA_AEO2022\", \"Checked\": true, \"RowOrder\": 2, \"ShortName\": \"SR\"}, {\"Name\": \"SysSettings\", \"Checked\": true, \"RowOrder\": 3, \"ShortName\": \"SS\"}, {\"Name\": \"1.0_Demands\", \"Checked\": true, \"RowOrder\": 4, \"ShortName\": \"RS\"}, {\"Name\": \"1.1_PricesFuel\", \"Checked\": true, \"RowOrder\": 5, \"ShortName\": \"RS\"}, {\"Name\": \"1.3_ELC_RenewablePotentials\", \"Checked\": true, \"RowOrder\": 6, \"ShortName\": \"RS\"}, {\"Name\": \"1.4_MaxGrowthRates\", \"Checked\": true, \"RowOrder\": 7, \"ShortName\": \"RS\"}, {\"Name\": \"2.0_Time-TS1-1-ANNUAL\", \"Checked\": true, \"RowOrder\": 8, \"ShortName\": \"RS\"}, {\"Name\": \"2.0_Time-TS2-60\", \"Checked\": false, \"RowOrder\": 9, \"ShortName\": \"RS\"}, {\"Name\": \"2.0_Time-TS3-480\", \"Checked\": false, \"RowOrder\": 10, \"ShortName\": \"RS\"}, {\"Name\": \"3.0_ELC_UnitCommitment\", \"Checked\": false, \"RowOrder\": 11, \"ShortName\": \"RS\"}, {\"Name\": \"3.1_ELC_Discrete_NCAP\", \"Checked\": false, \"RowOrder\": 12, \"ShortName\": \"RS\"}, {\"Name\": \"4.0_CarbonBudget\", \"Checked\": false, \"RowOrder\": 13, \"ShortName\": \"RS\"}]",
+    "CreatedOn": "2026-01-13 13:17",
+    "DisplayCreatedOn": "2026-01-13 13:17",
+    "UserName": "james"
+  },
+  {
+    "SavedGroupId": 533,
+    "GroupName": "DefaultProperties",
+    "GroupType": "Properties",
+    "Settings": "{\"OptCa\": null, \"OptCr\": null, \"Damage\": 2, \"LimCol\": 0, \"LimRow\": 0, \"Oblong\": true, \"ResLim\": 50000, \"Retire\": false, \"IterLim\": 999999, \"SolPrint\": false, \"Uncertainty\": 0, \"RunInStepsOf\": 0, \"ClimateModule\": false, \"LinearVarCost\": true, \"LevelizedCosts\": 3, \"GamsOptionBratio\": \"\", \"DiscreteInvestment\": 0, \"DoExtendedQaChecks\": false, \"GeneralEquilibrium\": 3, \"MidYearDiscounting\": true, \"ObjFunctionVariant\": 0, \"ShiftDiscountingBy\": 0, \"Co2CalibrationAtBoh\": false, \"UseSlackVariablesInUc\": false, \"DiscreteUnitCommitment\": false, \"EndoGenousTechLearning\": false, \"WriteBPriceforElastDem\": false, \"SaveSolutionInformation\": false, \"TsForFlowReportingTypes\": 0, \"UseLastRunAsStartingPoint\": false, \"ActivateSensitivityAnalysis\": false}",
+    "CreatedOn": "2026-01-13 13:16",
+    "DisplayCreatedOn": "2026-01-13 13:16",
+    "UserName": "james"
+  }
+]

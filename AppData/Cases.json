@@ -1,0 +1,56 @@
+[
+  {
+    "CaseId": 484,
+    "CreatedOn": "2026-01-13 13:19",
+    "Description": "1 BASE ANNUAL Time Slice",
+    "EditedOn": "2026-01-13 13:19",
+    "EndingYear": "2100",
+    "FixResultFileName": "False",
+    "FixResultInfo": {
+      "WorkTimesFolderPath": null,
+      "GdxElasticDermands": {
+        "GdxSelectedFile": {
+          "FileName": "",
+          "FilePath": "",
+          "IsSelected": false
+        },
+        "IsApplied": false
+      },
+      "GdxIre": {
+        "GdxSelectedFile": {
+          "FileName": "",
+          "FilePath": "",
+          "IsSelected": false
+        },
+        "IsApplied": false,
+        "RadioSelection": 1
+      },
+      "GdxUseSolution": {
+        "FixYearsUpto": "",
+        "GdxSelectedFile": {
+          "FileName": "",
+          "FilePath": "",
+          "IsSelected": false
+        },
+        "IsApplied": false,
+        "RadioSelection": 1
+      },
+      "IsApplyFixResult": false
+    },
+    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.3",
+    "Name": "B-TS1",
+    "ParametricGroup": null,
+    "ParametricGroupId": null,
+    "PeriodsDefinition": "2024-2100-p10",
+    "PropertiesGroup": "DefaultProperties",
+    "PropertiesGroupId": 533,
+    "RegionGroup": "AllRegion",
+    "RegionGroupId": 532,
+    "ScenarioGroup": "B-TS1",
+    "ScenarioGroupId": 562,
+    "Solver": "cplex",
+    "SolverOptionFile": "BA121-7",
+    "UserName": "james",
+    "ModelFramework": "Times"
+  }
+]
