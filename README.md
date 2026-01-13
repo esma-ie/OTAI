@@ -1,2 +1,2 @@
 # OTAI
-Open TIMES All Island of Ireland
+Open TIMES All Island (OTAI) model of Ireland
