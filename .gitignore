@@ -1,0 +1,33 @@
+# Do not version control these files (except marked with "!")
+
+# Veda export folder
+Exported_files/*.*
+
+# GAMS
+GAMSSAVE/*.*
+AppData/GAMSSAVE/*.*
+
+# Exported_files(Results)
+Exported_files/*.*
+
+# Non-essential Veda settings
+Settings.json
+*Details.json
+*FormSettings.json
+!FrontEndFormFormSettings.json
+
+# Solver settings
+*.opt
+!cplex.opt
+
+# Temp excel files
+**/~$*.xlsx
+
+# Tableau files
+*.tfl
+*.twb
+*.hyper
+
+# Other file types
+*.csv
+*.pdf
